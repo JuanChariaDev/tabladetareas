@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablero de Tareas Pendientes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo.png" type="image/png">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo To-Do List">
+            <h1>Tablero de Tareas</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Tareas Completadas</a></li>
+                <li><a href="#">Nueva Tarea</a></li>
+                <li><a href="#">Configuración</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="task-board">
+            <div class="task-column">
+                <h2>Por Hacer</h2>
+                <div class="task-card high-priority">
+                    <h3>Armar tercer proyecto</h3>
+                    <p>Proceso de codificación tercer proyecto</p>
+                    <span>Vence: - </span>
+                </div>
+                <div class="task-card medium-priority">
+                    <h3>Entregar tercer proyecto</h3>
+                    <p>Enviar el proyecto al grupo</p>
+                    <span>Vence: - </span>
+                </div>
+            </div>
+            <div class="task-column">
+                <h2>En Progreso</h2>
+                <div class="task-card low-priority">
+                    <h3>Entrega segundo proyecto</h3>
+                    <p>Entrega de proyecto laboratorio</p>
+                    <span>Vence: 23/10/2024</span>
+                </div>
+            </div>
+            <div class="task-column">
+                <h2>Completadas</h2>
+                <div class="task-card completed">
+                    <h3>Entrega primer proyecto</h3>
+                    <p>Completada el: 18/09/2024</p>
+                </div>
+                <div class="task-card completed">
+                    <h3>Armado 1er proyecto</h3>
+                    <p>Completada el: 17/09/2024</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 FRSN UTN</p>
+        <p>👨‍💻 Juan Dev</p>
+    </footer>
+</body>
+</html>
